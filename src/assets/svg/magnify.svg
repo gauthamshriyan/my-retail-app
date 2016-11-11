@@ -1,0 +1,10 @@
+<svg
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="0.458in" height="0.472in">
+<path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(204, 204, 204)" fill="rgb(204, 204, 204)"
+ d="M18.988,20.322 L19.461,19.842 L29.507,30.028 L29.033,30.507 L18.988,20.322 Z"/>
+<path fill-rule="evenodd"  stroke-width="3px" stroke="rgb(204, 204, 204)" fill="rgb(255, 255, 255)"
+ d="M15.876,6.501 C21.054,6.501 25.252,10.757 25.252,16.007 C25.252,21.258 21.054,25.514 15.876,25.514 C10.698,25.514 6.500,21.258 6.500,16.007 C6.500,10.757 10.698,6.501 15.876,6.501 Z"/>
+<text font-family="HelveticaNeueLTStd" fill="rgb(153, 153, 153)" transform="matrix( 0.66969972702457, 0, 0, 0.6790450928382,10.8319272065514, 21.4364350132626)" font-size="27px">&#43;</text>
+</svg>
