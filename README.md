@@ -4,7 +4,6 @@
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
-  - [npm run test:watch](#npm-test:watch)
   - [npm run lint](#npm-run-lint)
   - [npm run stylelint](#npm-run-stylelint)
   - [npm run build](#npm-run-build)
