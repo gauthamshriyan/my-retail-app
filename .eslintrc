@@ -1,0 +1,27 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": [2, 4],
+        "react/jsx-indent": [2, 2],
+        "react/jsx-indent-props": [2, 4],
+        "comma-dangle": 0,
+        "react/jsx-filename-extension": 0,
+        "react/no-multi-comp": 0,
+        "no-param-reassign": 0,
+        "class-methods-use-this": 0,
+        "no-use-before-define": ["warn", { "functions": true, "classes": true }],
+        "max-len": ["error", 200, 4 ],
+        "react/prefer-stateless-function": 0,
+        "react/prop-types": 0,
+        "no-restricted-syntax": [0, "ForInStatement"], // Include back later
+        "global-require": 1,
+        "no-underscore-dangle": 1,
+        "no-class-assign": 0, // this is something Fluxible does to connect Component to Store.
+        "array-callback-return": 0,
+        "no-case-declarations": 0,
+        "arrow-body-style": ["error", "as-needed"],
+        "import/no-extraneous-dependencies": 0,
+        "jsx-a11y/no-static-element-interactions": 0
+    }
+}

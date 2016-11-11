@@ -1,0 +1,46 @@
+.small-button-group {
+  margin: auto;
+
+  button.btn {
+    background-color: @gray4;
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    margin: 10px 2px;
+    padding: 5px 0;
+    width: 160px;
+    color: @gray3;
+    outline: none;
+  }
+}
+
+.large-button-group {
+  button.btn {
+    background: @red1; /* Old browsers */
+    background: -moz-linear-gradient(top, @red2 0%, @red1 40%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, @red2 0%, @red1 40%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, @red2 0%, @red1 40%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -webkit-box-shadow: -1px 9px 5px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 5px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 9px 5px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    border: none;
+    color: @white;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px 0 0;
+    padding: 5px 0;
+    text-transform: uppercase;
+    width: 240px;
+  }
+
+  button.btn:focus {
+    color: @white;
+  }
+
+  button.black {
+    background: -moz-linear-gradient(top, @gray3 0%, @black 40%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, @gray3 0%, @black 40%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, @gray3 0%, @black 40%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+}
